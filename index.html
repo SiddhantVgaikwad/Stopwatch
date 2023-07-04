@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <!-- Font and symbols-->
+    <link rel="icon" type="image/x-icon" href="android-chrome-192x192.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/68ec89a036.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+
+    <!-- css file -->
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="area">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <div class="container">
+          <div class="timer-display">00:00:00:000</div>
+          <div class="buttons">
+            <button id="start-timer">
+              <i class="fa-solid fa-play"> </i> Start
+            </button>
+            <button id="pause-timer">
+              <i class="fa-solid fa-pause"> </i> Pause
+            </button>
+            <button id="reset-timer">
+              <i class="fa-solid fa-rotate-left"> </i> Reset
+            </button>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <!-- index -->
+    <script src="src/index.js"></script>
+  </body>
+</html>
